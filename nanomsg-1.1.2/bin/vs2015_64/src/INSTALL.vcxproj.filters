@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015_64\CMakeFiles\61d8aec59fbd35c0a65c3f3ac81424f2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{7AB0D840-3709-31C3-96C4-C9C64F220916}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

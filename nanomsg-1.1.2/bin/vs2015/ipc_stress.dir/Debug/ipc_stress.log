@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt
+  CMake does not need to re-run because E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015/CMakeFiles/generate.stamp is up-to-date.
+  ipc_stress.c
+  ipc_stress.vcxproj -> E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\Debug\ipc_stress.exe

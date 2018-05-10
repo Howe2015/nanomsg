@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\ep.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\global.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\pipe.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\poll.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\sock.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\sockbase.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\symbol.c">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\ctx.c">
+      <Filter>aio</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\fsm.c">
+      <Filter>aio</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\pool.c">
+      <Filter>aio</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\timer.c">
+      <Filter>aio</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\timerset.c">
+      <Filter>aio</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\usock.c">
+      <Filter>aio</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\worker.c">
+      <Filter>aio</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\alloc.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\atomic.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\chunk.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\chunkref.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\clock.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\closefd.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\efd.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\err.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\hash.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\list.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\msg.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\condvar.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\mutex.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\once.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\queue.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\random.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\sem.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\sleep.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\strcasecmp.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\strcasestr.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\strncasecmp.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\thread.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\wire.c">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\devices\device.c">
+      <Filter>devices</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\dist.c">
+      <Filter>protocols\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\excl.c">
+      <Filter>protocols\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\fq.c">
+      <Filter>protocols\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\lb.c">
+      <Filter>protocols\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\priolist.c">
+      <Filter>protocols\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\bus\bus.c">
+      <Filter>protocols\bus</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\bus\xbus.c">
+      <Filter>protocols\bus</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pipeline\push.c">
+      <Filter>protocols\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pipeline\pull.c">
+      <Filter>protocols\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pipeline\xpull.c">
+      <Filter>protocols\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pipeline\xpush.c">
+      <Filter>protocols\pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pair\pair.c">
+      <Filter>protocols\pair</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pair\xpair.c">
+      <Filter>protocols\pair</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pubsub\pub.c">
+      <Filter>protocols\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pubsub\sub.c">
+      <Filter>protocols\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pubsub\trie.c">
+      <Filter>protocols\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pubsub\xpub.c">
+      <Filter>protocols\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pubsub\xsub.c">
+      <Filter>protocols\pubsub</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\req.c">
+      <Filter>protocols\reqrep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\rep.c">
+      <Filter>protocols\reqrep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\task.c">
+      <Filter>protocols\reqrep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\xrep.c">
+      <Filter>protocols\reqrep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\xreq.c">
+      <Filter>protocols\reqrep</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\survey\respondent.c">
+      <Filter>protocols\survey</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\survey\surveyor.c">
+      <Filter>protocols\survey</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\survey\xrespondent.c">
+      <Filter>protocols\survey</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\survey\xsurveyor.c">
+      <Filter>protocols\survey</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\backoff.c">
+      <Filter>transports\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\dns.c">
+      <Filter>transports\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\iface.c">
+      <Filter>transports\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\literal.c">
+      <Filter>transports\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\port.c">
+      <Filter>transports\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\streamhdr.c">
+      <Filter>transports\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\base64.c">
+      <Filter>transports\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\binproc.c">
+      <Filter>transports\inproc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\cinproc.c">
+      <Filter>transports\inproc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\inproc.c">
+      <Filter>transports\inproc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\ins.c">
+      <Filter>transports\inproc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\msgqueue.c">
+      <Filter>transports\inproc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\sinproc.c">
+      <Filter>transports\inproc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\aipc.c">
+      <Filter>transports\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\bipc.c">
+      <Filter>transports\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\cipc.c">
+      <Filter>transports\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\ipc.c">
+      <Filter>transports\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\sipc.c">
+      <Filter>transports\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\atcp.c">
+      <Filter>transports\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\btcp.c">
+      <Filter>transports\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\ctcp.c">
+      <Filter>transports\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\stcp.c">
+      <Filter>transports\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\tcp.c">
+      <Filter>transports\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\aws.c">
+      <Filter>transports\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\bws.c">
+      <Filter>transports\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\cws.c">
+      <Filter>transports\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\sws.c">
+      <Filter>transports\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\ws.c">
+      <Filter>transports\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\ws_handshake.c">
+      <Filter>transports\ws</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\sha1.c">
+      <Filter>transports\ws</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\nn.h">
+      <Filter>nn.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\inproc.h">
+      <Filter>inproc.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\ipc.h">
+      <Filter>ipc.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\tcp.h">
+      <Filter>tcp.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\ws.h">
+      <Filter>ws.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\pair.h">
+      <Filter>pair.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\pubsub.h">
+      <Filter>pubsub.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\reqrep.h">
+      <Filter>reqrep.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\pipeline.h">
+      <Filter>pipeline.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\survey.h">
+      <Filter>survey.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\bus.h">
+      <Filter>bus.h</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\ep.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\global.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\core\sock.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\ctx.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\fsm.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\pool.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\timer.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\timerset.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\usock.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\worker.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\alloc.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\atomic.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\attr.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\chunk.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\chunkref.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\clock.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\closefd.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\cont.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\efd.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\err.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\fast.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\fd.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\hash.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\list.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\msg.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\condvar.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\mutex.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\once.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\queue.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\random.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\sem.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\sleep.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\strcasecmp.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\strcasestr.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\strncasecmp.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\thread.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\wire.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\devices\device.h">
+      <Filter>devices</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\dist.h">
+      <Filter>protocols\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\excl.h">
+      <Filter>protocols\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\fq.h">
+      <Filter>protocols\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\lb.h">
+      <Filter>protocols\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\utils\priolist.h">
+      <Filter>protocols\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\bus\xbus.h">
+      <Filter>protocols\bus</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pipeline\xpull.h">
+      <Filter>protocols\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pipeline\xpush.h">
+      <Filter>protocols\pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pair\xpair.h">
+      <Filter>protocols\pair</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pubsub\trie.h">
+      <Filter>protocols\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pubsub\xpub.h">
+      <Filter>protocols\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\pubsub\xsub.h">
+      <Filter>protocols\pubsub</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\req.h">
+      <Filter>protocols\reqrep</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\rep.h">
+      <Filter>protocols\reqrep</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\task.h">
+      <Filter>protocols\reqrep</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\xrep.h">
+      <Filter>protocols\reqrep</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\reqrep\xreq.h">
+      <Filter>protocols\reqrep</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\survey\xrespondent.h">
+      <Filter>protocols\survey</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\protocols\survey\xsurveyor.h">
+      <Filter>protocols\survey</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\backoff.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\dns.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\dns_getaddrinfo.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\dns_getaddrinfo_a.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\iface.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\literal.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\port.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\streamhdr.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\base64.h">
+      <Filter>transports\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\binproc.h">
+      <Filter>transports\inproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\cinproc.h">
+      <Filter>transports\inproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\ins.h">
+      <Filter>transports\inproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\msgqueue.h">
+      <Filter>transports\inproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\inproc\sinproc.h">
+      <Filter>transports\inproc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\aipc.h">
+      <Filter>transports\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\bipc.h">
+      <Filter>transports\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\cipc.h">
+      <Filter>transports\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ipc\sipc.h">
+      <Filter>transports\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\atcp.h">
+      <Filter>transports\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\btcp.h">
+      <Filter>transports\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\ctcp.h">
+      <Filter>transports\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\tcp\stcp.h">
+      <Filter>transports\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\aws.h">
+      <Filter>transports\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\bws.h">
+      <Filter>transports\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\cws.h">
+      <Filter>transports\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\sws.h">
+      <Filter>transports\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\ws_handshake.h">
+      <Filter>transports\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\ws\sha1.h">
+      <Filter>transports\ws</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\usock_win.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\worker_win.h">
+      <Filter>aio</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\thread_win.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\win.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\efd_win.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\dns_getaddrinfo.inc">
+      <Filter>transports\utils</Filter>
+    </None>
+    <None Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\transports\utils\dns_getaddrinfo_a.inc">
+      <Filter>transports\utils</Filter>
+    </None>
+    <None Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\usock_win.inc">
+      <Filter>aio</Filter>
+    </None>
+    <None Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\aio\worker_win.inc">
+      <Filter>aio</Filter>
+    </None>
+    <None Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\thread_win.inc">
+      <Filter>utils</Filter>
+    </None>
+    <None Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\src\utils\efd_win.inc">
+      <Filter>utils</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protocols\utils">
+      <UniqueIdentifier>{EC1DBA7A-A348-3AED-8B16-507533CCCA2A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocols\bus">
+      <UniqueIdentifier>{03A4E99C-39BD-3FB8-B4A4-C7E4D2F0672E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocols\pipeline">
+      <UniqueIdentifier>{7DD4A640-35ED-3A91-95D3-7E7C272BD772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocols\pair">
+      <UniqueIdentifier>{BBAA05D4-406F-31DE-A621-21EDAFBCE782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocols\pubsub">
+      <UniqueIdentifier>{221DD6DD-7488-388B-9AB1-891C57490701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocols\reqrep">
+      <UniqueIdentifier>{11137A5E-B60E-3DD8-8436-EED216D5C917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocols\survey">
+      <UniqueIdentifier>{9246B588-C047-3F0C-BF84-5A3A34617DCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transports\utils">
+      <UniqueIdentifier>{82F508A7-17F4-314A-B4BD-3493AA392E8C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transports\inproc">
+      <UniqueIdentifier>{8648F6B3-9DF8-358F-B556-4272CA80B4FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transports\ipc">
+      <UniqueIdentifier>{028948E9-6119-3FE2-9EC3-F2F6DE484B3B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transports\tcp">
+      <UniqueIdentifier>{E3D4EF85-391F-3EA4-9FEE-D326A5E3EA5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transports\ws">
+      <UniqueIdentifier>{BDA7585D-DC78-3B66-AE75-C8FC31BC71D4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nn.h">
+      <UniqueIdentifier>{76ED8B7D-60F0-3F8E-9FD1-62082584F76C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="inproc.h">
+      <UniqueIdentifier>{76F0CB8F-5842-3743-8991-89324B45A73C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ipc.h">
+      <UniqueIdentifier>{BD4C8FEF-B6D5-3FA0-A7B1-500334602C37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tcp.h">
+      <UniqueIdentifier>{C3F89D6C-BBD9-32AA-8ED7-5BA235EDA28F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ws.h">
+      <UniqueIdentifier>{F8D00898-E5D5-3F31-B3D6-176B7A3C23EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pair.h">
+      <UniqueIdentifier>{F8442A11-F0D1-31A6-ABE5-9AC40B2A2182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pubsub.h">
+      <UniqueIdentifier>{72105870-8759-3043-B1A6-68BCDDB15FFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="reqrep.h">
+      <UniqueIdentifier>{3E790942-8BBB-3B96-AE2D-65DA3F5563F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pipeline.h">
+      <UniqueIdentifier>{ABFA0FDC-81E4-342A-9040-FF4C1A994CBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="survey.h">
+      <UniqueIdentifier>{547B2665-17D2-3FD6-A1FE-D8F0332EDC37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bus.h">
+      <UniqueIdentifier>{B0E6BC47-AAB2-37B4-8021-0F7517DB5033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{D913FD52-EE75-355A-BC53-EA88FD2AF1A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="aio">
+      <UniqueIdentifier>{42307FDE-2DE6-3CF2-BF63-71EF209AB35A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{6EC9538F-888E-3943-A0BE-DADF3EE5E863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="devices">
+      <UniqueIdentifier>{6D3A27A8-9692-3648-BE48-C72D6E994A5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="protocols">
+      <UniqueIdentifier>{9277AD45-455A-305A-9F97-2215CC5C9D76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="transports">
+      <UniqueIdentifier>{37C82952-0303-3D8A-811A-A0AFCA0003C6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

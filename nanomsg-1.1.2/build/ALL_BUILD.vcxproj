@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB211AD4-C609-3EB9-8ED6-7E7ACEB2ECAC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Study/nanomsg-1.1.2/nanomsg-1.1.2 -BE:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build --check-stamp-file E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Study/nanomsg-1.1.2/nanomsg-1.1.2 -BE:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build --check-stamp-file E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Study/nanomsg-1.1.2/nanomsg-1.1.2 -BE:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build --check-stamp-file E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Study/nanomsg-1.1.2/nanomsg-1.1.2 -BE:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build --check-stamp-file E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystem.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerId.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCompilerIdDetection.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TI-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CompilerId\VS-10.vcxproj.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeFindBinUtils.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeTestCompilerCommon.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompilerABI.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeDetermineCompileFeatures.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompiler.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.c.in;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files\CMake\share\cmake-3.10\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\ZERO_CHECK.vcxproj">
+      <Project>{BA67E8B4-D5B2-3BBB-BA12-5A00A2BB00BD}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\async_shutdown.vcxproj">
+      <Project>{A281208C-F928-3CB8-B575-065738B55D96}</Project>
+      <Name>async_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\block.vcxproj">
+      <Project>{2C46AC6F-BE76-35CD-934B-40932E2005CA}</Project>
+      <Name>block</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\bug328.vcxproj">
+      <Project>{00EF6DB4-30BE-3CFC-8212-92450B430612}</Project>
+      <Name>bug328</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\bug777.vcxproj">
+      <Project>{63D482E7-9B66-306C-AD79-9FC20359F051}</Project>
+      <Name>bug777</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\bus.vcxproj">
+      <Project>{600E0FE2-3DDE-38DF-9B51-FC495E0EE039}</Project>
+      <Name>bus</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\cmsg.vcxproj">
+      <Project>{E887621D-9B95-326B-9FD9-8F2ACA1FBC95}</Project>
+      <Name>cmsg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\device.vcxproj">
+      <Project>{39561DB7-A822-3DED-A2ED-742DC96708E7}</Project>
+      <Name>device</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\device4.vcxproj">
+      <Project>{B808AEA9-4E1D-3775-8E91-E21A27163E94}</Project>
+      <Name>device4</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\device5.vcxproj">
+      <Project>{8F47672E-F0B6-3679-A923-9B91E26FFF3C}</Project>
+      <Name>device5</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\device6.vcxproj">
+      <Project>{485A04EF-228E-392E-B1F7-95B14E8F9FD3}</Project>
+      <Name>device6</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\device7.vcxproj">
+      <Project>{0B37C25F-9210-3EAF-9DE4-306F0F8DB036}</Project>
+      <Name>device7</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\domain.vcxproj">
+      <Project>{062C5BF4-6ED2-3DEB-A0AB-CE96253734E4}</Project>
+      <Name>domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\emfile.vcxproj">
+      <Project>{707520B4-637A-3151-93F5-92CD65DE949C}</Project>
+      <Name>emfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\hash.vcxproj">
+      <Project>{16270BFC-E73A-3D87-9D04-B41DCD720206}</Project>
+      <Name>hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\inproc.vcxproj">
+      <Project>{12B72F21-AF03-3796-BBA2-852102DCBA16}</Project>
+      <Name>inproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\inproc_lat.vcxproj">
+      <Project>{4907051F-E3B0-371D-BFB1-23F89A19070B}</Project>
+      <Name>inproc_lat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\inproc_shutdown.vcxproj">
+      <Project>{D49FD1E7-7C95-383D-A445-76246DB7B63F}</Project>
+      <Name>inproc_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\inproc_thr.vcxproj">
+      <Project>{5D88B946-6619-3513-83EA-B0AD11B769D4}</Project>
+      <Name>inproc_thr</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\iovec.vcxproj">
+      <Project>{7CF01EC1-7C5E-3116-BB20-3CB23DFA8C81}</Project>
+      <Name>iovec</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\ipc.vcxproj">
+      <Project>{E85C2252-6D41-3D1C-8F74-DEC914E4FCB4}</Project>
+      <Name>ipc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\ipc_shutdown.vcxproj">
+      <Project>{D6982E9C-D355-347D-937B-F197F60FD7B9}</Project>
+      <Name>ipc_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\ipc_stress.vcxproj">
+      <Project>{3861CDDB-9535-3EE3-8BFD-623289297C64}</Project>
+      <Name>ipc_stress</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\list.vcxproj">
+      <Project>{B3757575-FE58-322D-9D41-119B4839C7B5}</Project>
+      <Name>list</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\local_lat.vcxproj">
+      <Project>{0015EC00-6306-35FE-8F18-52A48AD682B9}</Project>
+      <Name>local_lat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\local_thr.vcxproj">
+      <Project>{D1EE1358-00EB-3B2A-BE0F-D07E6F3AA0C2}</Project>
+      <Name>local_thr</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\msg.vcxproj">
+      <Project>{9E2DE05D-D12F-3DE7-8075-F2ECEC84BC0F}</Project>
+      <Name>msg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\nanocat.vcxproj">
+      <Project>{68984270-CDC4-3072-B210-E3F7BDB60653}</Project>
+      <Name>nanocat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\src\nanomsg.vcxproj">
+      <Project>{793A7C7E-0A45-3E30-9934-124E37E075F9}</Project>
+      <Name>nanomsg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\pair.vcxproj">
+      <Project>{59712567-2161-3DF4-A34D-E80292E8F9A3}</Project>
+      <Name>pair</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\pipeline.vcxproj">
+      <Project>{54E9A9EE-AC4E-3AD6-8481-3C8C81315883}</Project>
+      <Name>pipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\poll.vcxproj">
+      <Project>{0C0D6098-447D-3722-8CAF-C91B7464EFBF}</Project>
+      <Name>poll</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\prio.vcxproj">
+      <Project>{5683A470-8614-3D86-B45C-8B91CE715668}</Project>
+      <Name>prio</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\pubsub.vcxproj">
+      <Project>{F71ABDB1-408A-3E3C-8DD2-024119892625}</Project>
+      <Name>pubsub</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\remote_lat.vcxproj">
+      <Project>{DD6637F4-AC15-3231-B26E-53B0EA583F01}</Project>
+      <Name>remote_lat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\remote_thr.vcxproj">
+      <Project>{FD6117BA-742E-36DC-86B4-EB31F254F803}</Project>
+      <Name>remote_thr</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\reqrep.vcxproj">
+      <Project>{0CC52E61-2ECE-3082-82A2-973B16F8C58B}</Project>
+      <Name>reqrep</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\reqttl.vcxproj">
+      <Project>{5758A3C4-F131-3FA3-9F5C-FEE2D147647A}</Project>
+      <Name>reqttl</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\separation.vcxproj">
+      <Project>{B6495BB3-92D5-3EE5-8020-01341A5474A1}</Project>
+      <Name>separation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\shutdown.vcxproj">
+      <Project>{3F139228-F56F-37CD-B1F8-08A91CB58529}</Project>
+      <Name>shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\stats.vcxproj">
+      <Project>{28EC4459-F886-340A-A66F-A634A1E41624}</Project>
+      <Name>stats</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\survey.vcxproj">
+      <Project>{2C72383F-4EA9-3F80-B4A7-3C8A0BD21F38}</Project>
+      <Name>survey</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\surveyttl.vcxproj">
+      <Project>{CBFDCEDF-794A-358F-B5B7-3E9876DF3651}</Project>
+      <Name>surveyttl</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\symbol.vcxproj">
+      <Project>{B7B9E13E-75B1-32F8-99CE-57D31494C6CF}</Project>
+      <Name>symbol</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\tcp.vcxproj">
+      <Project>{2A91D8C0-F0A3-30F7-9283-87581566F5FB}</Project>
+      <Name>tcp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\tcp_shutdown.vcxproj">
+      <Project>{56BA26C4-48B5-37D4-876E-02EF13698BB2}</Project>
+      <Name>tcp_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\term.vcxproj">
+      <Project>{491279F5-F28D-3F44-9AC2-EC435900428E}</Project>
+      <Name>term</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\timeo.vcxproj">
+      <Project>{FA465D3B-89CF-33BD-A24D-EAE6BC0C15E1}</Project>
+      <Name>timeo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\trie.vcxproj">
+      <Project>{1936069B-F878-34AB-8B9A-382E812A73D4}</Project>
+      <Name>trie</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\win_sec_attr.vcxproj">
+      <Project>{646EBBC9-27FA-3B15-A7AD-98218711C3F4}</Project>
+      <Name>win_sec_attr</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\ws.vcxproj">
+      <Project>{DDDF1FEC-62EE-38C0-8668-A28552119F46}</Project>
+      <Name>ws</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\ws_async_shutdown.vcxproj">
+      <Project>{423003C6-63F0-3758-8577-D4BD65A48717}</Project>
+      <Name>ws_async_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\zerocopy.vcxproj">
+      <Project>{74E0BFB0-A93E-388D-AFF4-5487783360C9}</Project>
+      <Name>zerocopy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{27F800B2-6AC4-3737-9560-CE1A8F7F9E34}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Study/nanomsg-1.1.2/nanomsg-1.1.2 -BE:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015 --check-stamp-file E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Study/nanomsg-1.1.2/nanomsg-1.1.2 -BE:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015 --check-stamp-file E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Study/nanomsg-1.1.2/nanomsg-1.1.2 -BE:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015 --check-stamp-file E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HE:/Study/nanomsg-1.1.2/nanomsg-1.1.2 -BE:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015 --check-stamp-file E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInitialize.cmake;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\Platform\Windows-MSVC.cmake;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\3.10.0\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.10\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;C:\Program Files\CMake\share\cmake-3.10\Templates\CPackConfig.cmake.in;E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\ZERO_CHECK.vcxproj">
+      <Project>{41D95394-B174-3224-9CFE-074BAC9E4F9A}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\async_shutdown.vcxproj">
+      <Project>{B064C713-73E0-3186-9530-F54EC3774420}</Project>
+      <Name>async_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\block.vcxproj">
+      <Project>{5077442F-969B-3397-8B66-5D80C62003AC}</Project>
+      <Name>block</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\bug328.vcxproj">
+      <Project>{23DB39D6-11D2-3A75-AA21-700B303A607D}</Project>
+      <Name>bug328</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\bug777.vcxproj">
+      <Project>{343E64F0-F8F4-3898-AEA5-3F2B40F89A6F}</Project>
+      <Name>bug777</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\bus.vcxproj">
+      <Project>{42795A04-E078-3783-B9D0-135F93C71343}</Project>
+      <Name>bus</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\cmsg.vcxproj">
+      <Project>{50FEC5CD-A0D2-373E-95F5-FCC95CECA2E5}</Project>
+      <Name>cmsg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\device.vcxproj">
+      <Project>{B64BE731-5219-3EE2-B9AC-40DE0004A0CF}</Project>
+      <Name>device</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\device4.vcxproj">
+      <Project>{77435432-4D3C-3784-A0D7-F1E14AAFA578}</Project>
+      <Name>device4</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\device5.vcxproj">
+      <Project>{2A0F7C8B-BE9F-3CA6-A109-A1465D6AAA3E}</Project>
+      <Name>device5</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\device6.vcxproj">
+      <Project>{4F63F6C9-2E5E-314D-800D-FA4522066B67}</Project>
+      <Name>device6</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\device7.vcxproj">
+      <Project>{9AFE332C-591C-3645-86C6-65001B0F2279}</Project>
+      <Name>device7</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\domain.vcxproj">
+      <Project>{72818D7B-0181-318C-93AC-F6F002F87355}</Project>
+      <Name>domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\emfile.vcxproj">
+      <Project>{363E94D0-549D-3A53-AFA1-1B396AAE5FC0}</Project>
+      <Name>emfile</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\hash.vcxproj">
+      <Project>{6B0FA68E-C00E-327C-99F2-B7030D0ED232}</Project>
+      <Name>hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\inproc.vcxproj">
+      <Project>{9DDEB5A7-804A-3B22-8B85-EBC947539DC4}</Project>
+      <Name>inproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\inproc_lat.vcxproj">
+      <Project>{6F6E8B3D-C36A-38BD-92CA-9A7EACD66C75}</Project>
+      <Name>inproc_lat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\inproc_shutdown.vcxproj">
+      <Project>{35CBD6E4-E30C-36C1-9473-F99D44F155DA}</Project>
+      <Name>inproc_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\inproc_thr.vcxproj">
+      <Project>{7E765CD3-7EBE-3723-A58E-746AC0985D57}</Project>
+      <Name>inproc_thr</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\iovec.vcxproj">
+      <Project>{586E2CF6-5687-363A-A223-EF6770C2412F}</Project>
+      <Name>iovec</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\ipc.vcxproj">
+      <Project>{04951CFA-A0DC-3FA6-8EAC-BA3984465D51}</Project>
+      <Name>ipc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\ipc_shutdown.vcxproj">
+      <Project>{9949A618-1A94-3CA3-8576-EB60228F8C80}</Project>
+      <Name>ipc_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\ipc_stress.vcxproj">
+      <Project>{43BA0901-CE6D-313B-A405-CF3B0A34AA7B}</Project>
+      <Name>ipc_stress</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\list.vcxproj">
+      <Project>{91598E78-50C7-3317-90CA-9B7D90AB3242}</Project>
+      <Name>list</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\local_lat.vcxproj">
+      <Project>{5644DB4F-8627-34B2-B015-5BD26D3F76DA}</Project>
+      <Name>local_lat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\local_thr.vcxproj">
+      <Project>{EB17F77F-3DBC-31D1-872B-F89D7D222479}</Project>
+      <Name>local_thr</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\msg.vcxproj">
+      <Project>{7368150A-5B78-38CF-9918-C863113CE465}</Project>
+      <Name>msg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\nanocat.vcxproj">
+      <Project>{7598AA45-F28B-392F-BBF5-2F29A8EE6142}</Project>
+      <Name>nanocat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\src\nanomsg.vcxproj">
+      <Project>{3F8B0AD8-6349-3B2A-8C5E-ABCE44FF6B7C}</Project>
+      <Name>nanomsg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\pair.vcxproj">
+      <Project>{6DA92227-04B0-3AEE-8664-7969C210EBDB}</Project>
+      <Name>pair</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\pipeline.vcxproj">
+      <Project>{70297B4D-D327-3D3F-BB58-710A67BDCF26}</Project>
+      <Name>pipeline</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\poll.vcxproj">
+      <Project>{47E78E88-2C56-39BB-92FC-8FB02E01C6BC}</Project>
+      <Name>poll</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\prio.vcxproj">
+      <Project>{98CCD52D-3C18-36F0-B522-4BDA0FEFB9C3}</Project>
+      <Name>prio</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\pubsub.vcxproj">
+      <Project>{13269687-DC60-3B40-9117-EE178D0A68B9}</Project>
+      <Name>pubsub</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\remote_lat.vcxproj">
+      <Project>{6950537C-21F8-36DF-AEBE-95A472015226}</Project>
+      <Name>remote_lat</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\remote_thr.vcxproj">
+      <Project>{05FF222A-A810-3B90-9C50-20FB98D5E966}</Project>
+      <Name>remote_thr</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\reqrep.vcxproj">
+      <Project>{42A9B34B-C05D-34AD-9C25-0F0191B5A580}</Project>
+      <Name>reqrep</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\reqttl.vcxproj">
+      <Project>{5456DBB3-644A-3962-B7FB-498780AF82AB}</Project>
+      <Name>reqttl</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\separation.vcxproj">
+      <Project>{68E77C32-C736-3A6D-BE9D-4898D9D896EA}</Project>
+      <Name>separation</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\shutdown.vcxproj">
+      <Project>{4D0CB926-70D0-30C0-BDC4-AD13CA1A3498}</Project>
+      <Name>shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\stats.vcxproj">
+      <Project>{AF9A9AF2-9077-32EB-8E1F-A928E05D7DFD}</Project>
+      <Name>stats</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\survey.vcxproj">
+      <Project>{50795265-6453-39A0-911F-BC22B4B54807}</Project>
+      <Name>survey</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\surveyttl.vcxproj">
+      <Project>{7B0F8490-7B26-3BB6-9A11-8EF7C6C28ECC}</Project>
+      <Name>surveyttl</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\symbol.vcxproj">
+      <Project>{32EB49A6-7549-39DB-894F-4D93A4D62175}</Project>
+      <Name>symbol</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\tcp.vcxproj">
+      <Project>{69A4F4C4-3D36-3EC6-BC1A-95D5FA9E8166}</Project>
+      <Name>tcp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\tcp_shutdown.vcxproj">
+      <Project>{CFD09671-5AC2-32A1-83A1-EBDC281CB28D}</Project>
+      <Name>tcp_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\term.vcxproj">
+      <Project>{0780AC86-3657-35C4-B90A-E941B0024BA0}</Project>
+      <Name>term</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\timeo.vcxproj">
+      <Project>{C6EE8E95-8983-3183-8F30-5449EE572C99}</Project>
+      <Name>timeo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\trie.vcxproj">
+      <Project>{C7C370FC-F2BA-3F1E-847E-706A271C0674}</Project>
+      <Name>trie</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\win_sec_attr.vcxproj">
+      <Project>{75C3F3CF-A66C-37F1-B696-D8F3D7EBB20B}</Project>
+      <Name>win_sec_attr</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\ws.vcxproj">
+      <Project>{B7F820DE-A00A-3906-9248-F9C6DC4AA186}</Project>
+      <Name>ws</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\ws_async_shutdown.vcxproj">
+      <Project>{2E5748A1-6ED8-3530-B89B-D192354FFBAB}</Project>
+      <Name>ws_async_shutdown</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015\zerocopy.vcxproj">
+      <Project>{0EDF8E00-2B4C-3675-96A1-4A1994B5730D}</Project>
+      <Name>zerocopy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

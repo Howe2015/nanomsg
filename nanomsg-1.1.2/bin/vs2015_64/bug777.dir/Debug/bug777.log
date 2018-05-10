@@ -1,0 +1,4 @@
+﻿  Building Custom Rule E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/CMakeLists.txt
+  CMake does not need to re-run because E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/bin/vs2015_64/CMakeFiles/generate.stamp is up-to-date.
+  bug777.c
+  bug777.vcxproj -> E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\bin\vs2015_64\Debug\bug777.exe

@@ -1,0 +1,178 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) ��������汾 14.0.24720.0
+��Ȩ����(C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/5/9 17:24:42��
+��Ŀ�в����� BeforeTargets �����еġ�C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)��λ���г���Ŀ�ꡰBeforeGenerateProjectPriFile���������Ը�Ŀ�ꡣ
+�ڵ� 1 �ϵ���Ŀ��E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\3.10.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:00.46
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/3.10.0/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_42961.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24720.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/9 17:24:42。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\cmTC_42961.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_42961.dir\Debug\”。
+  正在创建目录“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_42961.dir\Debug\cmTC_42961.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_42961.dir\Debug\cmTC_42961.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42961.dir\Debug\\" /Fd"cmTC_42961.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.23506 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42961.dir\Debug\\" /Fd"cmTC_42961.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\cmTC_42961.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp/Debug/cmTC_42961.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp/Debug/cmTC_42961.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_42961.dir\Debug\testCCompiler.obj
+  cmTC_42961.vcxproj -> E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\cmTC_42961.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_42961.dir\Debug\cmTC_42961.tlog\unsuccessfulbuild”。
+  正在对“cmTC_42961.dir\Debug\cmTC_42961.tlog\cmTC_42961.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\cmTC_42961.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.49
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ff1bc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24720.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/9 17:24:43。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\cmTC_ff1bc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ff1bc.dir\Debug\”。
+  正在创建目录“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ff1bc.dir\Debug\cmTC_ff1bc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ff1bc.dir\Debug\cmTC_ff1bc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff1bc.dir\Debug\\" /Fd"cmTC_ff1bc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.23506 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ff1bc.dir\Debug\\" /Fd"cmTC_ff1bc.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files\CMake\share\cmake-3.10\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff1bc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff1bc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp/Debug/cmTC_ff1bc.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ff1bc.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_ff1bc.vcxproj -> E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\cmTC_ff1bc.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ff1bc.dir\Debug\cmTC_ff1bc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ff1bc.dir\Debug\cmTC_ff1bc.tlog\cmTC_ff1bc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\cmTC_ff1bc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.49
+
+
+Determining if the InitializeConditionVariable exist passed with the following output:
+Change Dir: E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b257c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) 生成引擎版本 14.0.24720.0
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/5/9 17:24:44。
+项目中不存在 BeforeTargets 特性中的“C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (186,61)”位置列出的目标“BeforeGenerateProjectPriFile”，将忽略该目标。
+节点 1 上的项目“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\cmTC_b257c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b257c.dir\Debug\”。
+  正在创建目录“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b257c.dir\Debug\cmTC_b257c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b257c.dir\Debug\cmTC_b257c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b257c.dir\Debug\\" /Fd"cmTC_b257c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.00.23506 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b257c.dir\Debug\\" /Fd"cmTC_b257c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\cmTC_b257c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp/Debug/cmTC_b257c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp/Debug/cmTC_b257c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b257c.dir\Debug\CheckSymbolExists.obj
+  cmTC_b257c.vcxproj -> E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\Debug\cmTC_b257c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b257c.dir\Debug\cmTC_b257c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b257c.dir\Debug\cmTC_b257c.tlog\cmTC_b257c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“E:\Study\nanomsg-1.1.2\nanomsg-1.1.2\build\CMakeFiles\CMakeTmp\cmTC_b257c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.68
+
+File E:/Study/nanomsg-1.1.2/nanomsg-1.1.2/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <windows.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef InitializeConditionVariable
+  return ((int*)(&InitializeConditionVariable))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
